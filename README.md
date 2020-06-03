@@ -1,11 +1,14 @@
-Deferred Twig Extension
+Twig Deferred Extension
 =======================
 
 [![Build Status](https://travis-ci.org/rybakit/twig-deferred-extension.svg?branch=master)](https://travis-ci.org/rybakit/twig-deferred-extension)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/rybakit/twig-deferred-extension/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/rybakit/twig-deferred-extension/?branch=master)
 [![Mentioned in Awesome Twig](https://awesome.re/mentioned-badge.svg)](https://github.com/JulienRAVIA/awesome-twig#extensions)
 
-An extension for Twig that allows to defer block rendering.
+An extension for Twig 2 that allows to defer block rendering.
+
+*If you are looking for support for Twig 3+, check out
+this [repository](https://github.com/rybakit/twig-deferred-extension).*
 
 
 ## Installation
@@ -13,10 +16,8 @@ An extension for Twig that allows to defer block rendering.
 The recommended way to install the extension is through [Composer](http://getcomposer.org):
 
 ```sh
-$ composer require phive/twig-extensions-deferred:^1.0 # for Twig 1.x
-$ composer require phive/twig-extensions-deferred:^2.0 # for Twig 2.x
+composer require phive/twig-extensions-deferred
 ```
-
 
 ## Initialization
 
